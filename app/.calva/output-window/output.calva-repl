@@ -1,0 +1,60 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: cmd.exe /d /c lein update-in :dependencies conj [nrepl,"0.8.3"] -- update-in :plugins conj [cider/cider-nrepl,"0.26.0"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉app.core꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉app.core꞉> 
+#'fp2.heron/heron-sqrt
+clj꞉fp2.heron꞉> 
+G is 2
+G is 7/4
+G is 97/56
+G is 18817/10864
+G is 708158977/408855776
+708158977/408855776
+clj꞉fp2.heron꞉> 
+G is 2
+G is 7/4
+G is 97/56
+G is 18817/10864
+G is 708158977/408855776
+708158977/408855776
+clj꞉fp2.heron꞉> 
+#'fp2.heron/heron-sqrt
+clj꞉fp2.heron꞉> 
+G is 2
+G is 7/4
+G is 97/56
+97/56
+clj꞉fp2.heron꞉> 
+#'fp2.heron/cube-root
+clj꞉fp2.heron꞉> 
+2.000004911675504
+clj꞉fp2.heron꞉> 
+#'user/find-index
+clj꞉user꞉> 
+2
+clj꞉user꞉> 
+1
+clj꞉user꞉> 
+0
+clj꞉user꞉> 
+#'user/unique-seq
+clj꞉user꞉> 
+(1 2 3 4 7)
+clj꞉user꞉> 
+; nREPL Connection was closed
